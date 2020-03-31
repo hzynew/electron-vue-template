@@ -15,5 +15,5 @@
 # 目录结构为
 # webpack.main.config     主程序配置文件
 # webpack.render.config   渲染程序配置文件
-# src-main          主程序目录
-# src-render        渲染程序配置文件
+# src/main          主程序目录
+# src/render        渲染程序配置文件
