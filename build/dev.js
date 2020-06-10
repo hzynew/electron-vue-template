@@ -128,12 +128,6 @@ async function devRun() {
   await buildRender()
   await buildMain()
   startElectron();
-  // Promise.all([buildMain(), runBuildRender()]).then(() => {
-  //     startElectron();
-  // }).catch(err => {
-  //     console.log(err);
-  //     process.exit();
-  // });
 }
 
 devRun();

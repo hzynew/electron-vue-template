@@ -20,9 +20,9 @@ function createWindow() {
    * Initial window options
    */
   mainWindow = new BrowserWindow({
-    height: 1080,
+    height: 726,
     useContentSize: true,
-    width: 1920,
+    width: 1366,
     // frame: false
     webPreferences: {// 官方在5.0版本修改了nodeIntegration的默认值
       nodeIntegration: true

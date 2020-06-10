@@ -1,5 +1,5 @@
+# electron + vue  基础项目模板
 # electron-vue-template
-# electron + vue  基础项目架构
 
 # 下载node module前记得给项目文件夹完全控制权限，避免下载安装module失败
 
@@ -11,6 +11,9 @@
 `npm run dev`
 ###### build vue + electron
 `npm run build`
+
+### electron 设置镜像
+##  npm config set electron_mirror https://npm.taobao.org/mirrors/electron/
 
 # 目录结构为
 # webpack.main.config     主程序配置文件

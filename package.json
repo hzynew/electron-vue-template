@@ -1,5 +1,5 @@
 {
-  "name": "dc-electron-rtc-new",
+  "name": "electron-vue-template",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/electron/main.js",
@@ -14,17 +14,17 @@
   },
   "build": {
     "asar": true,
-    "productName": "Electron+vue+webpack模板",
-    "appId": "com.electron.template",
-    "copyright": "Copyright © template",
+    "productName": "electron-vue-template",
+    "appId": "com.hzy.electron.template",
+    "copyright": "Copyright © template by hzy",
     "directories": {
-      "output": "thPC_live"
+      "output": "electronVueTemplate"
     },
     "files": [
-      "app/**"
+      "dist/**"
     ],
     "mac": {
-      "identity": "com.electron.templat",
+      "identity": "com.hzy.electron.template",
       "target": [
         "dmg"
       ],
@@ -35,14 +35,14 @@
       "artifactName": "${productName}.${ext}"
     },
     "win": {
-      "legalTrademarks": "Copyright © template",
+      "legalTrademarks": "Copyright © template by hzy",
       "publisherName": "electron",
       "requestedExecutionLevel": "highestAvailable",
       "target": [
         {
           "target": "nsis",
           "arch": [
-            "ia32"
+            "x64"
           ]
         }
       ],
@@ -53,9 +53,9 @@
       "allowToChangeInstallationDirectory": true,
       "perMachine": true,
       "allowElevation": true,
-      "artifactName": "${productName}-安装包-V${version}.${ext}",
+      "artifactName": "${productName}-install-V${version}.${ext}",
       "runAfterFinish": true,
-      "shortcutName": "Electron+vue+webpack-template"
+      "shortcutName": "electron-vue-template"
     }
   },
   "keywords": [],
